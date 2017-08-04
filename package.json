@@ -1,0 +1,14 @@
+{
+  "name": "post-button",
+  "version": "0.0.0",
+  "description": "Single button form that POSTs data to a web site",
+  "main": "post-button.js",
+  "dependencies": {
+    "module-library": "*",
+    "web-element": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/erikpukinskis/post-button.git"
+  }
+}
