@@ -5,6 +5,10 @@ module.exports = library.export(
   ["web-element"],
   function(element) {
     function postButton(label, action, data) {
+      if (typeof action != "string" || typeof label != "string") {
+        throw new Error("postButton takes a label, an action, and optionally some data")
+      }
+
       var form = element(
         "form",
         element.style({"display": "inline"}),
