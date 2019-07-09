@@ -1,6 +1,6 @@
 {
   "name": "post-button",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Single button form that POSTs data to a web site",
   "main": "post-button.js",
   "dependencies": {
